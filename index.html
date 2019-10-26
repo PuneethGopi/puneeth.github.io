@@ -1,31 +1,563 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Puneeth Gopi's, Demo webpage</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Puneeth Gopi!</h1>
-        		<h2>Hi there, I'm Puneeth Gopi!</h2>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:puneethg1911@gmail.com">email</a></li>
-        		<li><a href="https://github.com/puneethgopi">github.com/puneethgopi</a></li>
-			</ul>
-		</footer>
-	</body>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Puneeth Gopi</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+   ================================================== -->
+   <link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#resume">PORTFOLIO</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Hi, I'm Puneeth Gopi.</h1>
+            <h3 style="color: #44CAF3;"><span>Computer science student</span> who like to solve challenging problems.
+ <a class="smoothscroll" href="#about"><br><br>about me</a></h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/puneeth-gopi-713225147/"><i class="fa fa-linkedin-square"></i></a></li>
+               <li><a href="https://github.com/puneethgopi"><i class="fa fa-github-square"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="four columns">
+
+            <img class="profile-pic"  src="./images/profile.jpeg" alt="" />
+
+         </div>
+
+         <div class="eight columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am <span style="color: white;">Software Developer</span> by profession. <br>I have 3+ years of experience of developing the enterprise software. My primary expertise is in <span style="color: white;">Java</span> and <span style="color: white;">Python</span>. My experience includes developing and maintaining the software, writing unit tests to stability of software and deployment. I have also worked on couple of web development projects which includes <span style="color: white;">MEAN Stack</span>. Currently, I am pursuing Master's in Computer Software Engineering at San Jose State University. I enjoy reading books, cooking. I am dedicated, highly motivated, outgoing and good team player. 
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+                     <span>Puneeth Gopi</span><br>
+                     <span>Arlington, TX, USA, 76010<br>
+                           
+                     </span><br>
+                     <span>+1 682-331-4869</span><br>
+                     <span>puneethg1911@gmail.com</span>
+                  </p>
+
+               </div>
+               <h2>     Resume</h2>
+               <div class="columns download" style="margin-bottom: 0px;">
+                  <p>
+                     <a href="./resume/Gopi_resume.pdf" class="button"><i style="color: #10E33A;" class="fa fa-download"></i>Resume Download</a>
+                  </p>
+               </div>
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+            <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>San Jose State University</h3>
+                  <h4>San Jose, California, USA</h4>
+                  <p class="info">Master in Science- Computer Software Engineering<span>&bull;</span> <em class="date">August 2016 - Present</em></p>
+
+                  <p>
+                  Dual Specialization in <span class="info">Cloud Computing</span> and <span class="info"> Enterprise Software Technologies</span>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Pune</h3>
+                  <h5>Pune, India</h5>
+                  <p class="info">Bachelor's of Engineering- Computer Engineering<span>&bull;</span> <em class="date">July 2009 - June 2013</em></p>
+               </div>
+            </div> <!-- item end -->
+         </div> <!-- main-col end -->
+      </div> <!-- End Education -->
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+
+
+            <div class="bars">
+
+               <ul class="skills">
+                  <li><span class="bar-expand java"></span><em>Java</em></li>
+                  <li><span class="bar-expand python"></span><em>Python</em></li>
+                  <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand ccpp"></span><em>C/C++</em></li>
+               </ul>
+
+            </div><!-- end skill-bars -->
+
+            <div class="skillbox">
+            <p>
+            <h3>Other Skills</h3>
+            <p>
+               <ul class="other_skills_ul">
+                  <li class="other_skills_li" ><code>Database</code></li>
+                  <li class="other_skills_li" ><code>MYSQL</code></li>
+                  <li class="other_skills_li" ><code>Microsoft SQL Server</code></li>
+                  <li class="other_skills_li" ><code>Mongodb</code></li>
+                  <li class="other_skills_li" ><code>Redis</code></li><br>
+                  <li class="other_skills_li" ><code>Unit Testing</code></li>
+                  <li class="other_skills_li" ><code>JUnit</code></li>
+                  <li class="other_skills_li" ><code>PyUnit</code></li>
+                  <li class="other_skills_li" ><code>JMeter</code></li>
+                  <li class="other_skills_li" ><code>Mocha</code></li><br>
+                  <li class="other_skills_li" ><code>Web Services</code></li>
+                  <li class="other_skills_li" ><code>REST</code></li>
+                  <li class="other_skills_li" ><code>SOAP</code></li><br>
+                  <li class="other_skills_li" ><code>Data Structures</code></li>
+                  <li class="other_skills_li" ><code>Algorithms</code></li>
+                  <li class="other_skills_li" ><code>Debugging Skills</code></li><br>
+                  <li class="other_skills_li" ><code>Web Application Development</code></li>
+                  <li class="other_skills_li" ><code>Nodejs</code></li>
+                  <li class="other_skills_li" ><code>Angularjs</code></li>
+                  <li class="other_skills_li" ><code>HTML 5</code></li>
+                  <li class="other_skills_li" ><code>CSS</code></li><br>
+                  <li class="other_skills_li" ><code>Docker</code></li>
+                  <li class="other_skills_li" ><code>Amazon Web Services</code></li>
+                  <li class="other_skills_li" ><code>maven</code></li>
+                  <li class="other_skills_li" ><code>RabbitMQ</code></li>
+                  <li class="other_skills_li" ><code>Linux</code></li><br>
+                  <li class="other_skills_li" ><code>Agile</code></li>
+                  <li class="other_skills_li" ><code>Scrum</code></li>
+                  <li class="other_skills_li" ><code>Kanban</code></li><br>
+                  <li class="other_skills_li" ><code>Git</code></li>
+                  <li class="other_skills_li" ><code>Perforce</code></li>
+               </ul>
+            </p>
+            </p>
+            <div>
+         </div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+<section id="resume" name="portfolio" class="grey-section">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+            <hr>
+            <div class="three columns header-col">
+
+            <h1><span>Project</span></h1>
+         </div>
+         </div>         
+      </div> <!-- /section-intro-->
+      
+   <div class="row resume-timeline">
+
+         <div class="col-twelve resume-header">
+         </div> <!-- /resume-header -->
+         <div class="col-twelve">
+            <div class="timeline-wrap">
+               <div class="timeline-block">
+                  <div class="timeline-ico">
+                     <i style="color: #10E33A;" class="fa fa-laptop fa-2x"></i>
+                  </div>
+                  <div class="timeline-header">
+                     <h2>NexusMont</h2>
+                     <p>February 2016 - Ongoing</p>
+                  </div>
+                  <div class="timeline-content">
+                     <div style="display: inline;">
+                        <h3>NexusMont - Stock Analysis Tool for Indian Stocks</h3>
+                     </div>
+                     <h2><a href="https://github.com/ajayt/NexusMont-StocksAnalysis"><i class="fa fa-github"></i></a></h2>
+                     <p> 
+                        Developed a Desktop Application to analyze all stocks traded in Indian Stock Market.<br>
+                        This tool downloads the daily historical data from NSE and calculates various averages and 
+                        gives appropriate signals as Buy, Sell, Moving Up, Down etc. using quantitative analysis.
+                        This application has functionality to delete data, reindex data, rebuild index to improve the performance.
+                        Graphs are provided for more readability of stoack data.
+
+                        <div class="skillbox">
+                         <hr>
+
+                         <code>Python</code>
+                         <code>PySide</code>
+                         <code>Microsoft SQL Server</code>
+                         <code>JavaScript</code>
+                         <code>Chart.js</code>
+                         <code>HTML</code>
+                      </div>
+                   </p>
+                </div>
+             </div> <!-- /timeline-block -->
+             
+             <hr>
+
+            <div class="timeline-block">
+                  <div class="timeline-ico">
+                     <i style="color: #10E33A;" class="fa fa-laptop fa-2x"></i>
+                  </div>
+                  <div class="timeline-header">
+                     <h2>The Akatsuki - Crack It</h2>
+                     <p>September 2016 - November 2016</p>
+                  </div>
+                  <div class="timeline-content">
+                     <div style="display: inline;">
+                        <h3>Java Multiplayer Game to decode the Ciphers</h3>
+                     </div>
+                     <h2><a href="https://github.com/ajayt/Java-Mulltiplayer-Game"><i class="fa fa-github"></i></a></h2>
+                     <p> 
+                        Implemented multiplayer game to decode the ciphers.<br>
+                        Players connects to the server hosted on AWS. Timer starts as soon as games starts.
+                        Players has to decode the ciphers using hints before timer hits zero.
+                        Players who decodes the cipher first wins and other player lose.
+
+                        
+                        <div class="skillbox">
+                         <hr>
+                         <code>Java</code>
+                         <code>Design Patterns</code>
+                         <code>Restlet API</code>
+                         <code>Docker</code>
+                         <code>Amazon Web Service</code>
+                      </div>
+                   </p>
+                </div>
+             </div> <!-- /timeline-block -->                        
+
+             <hr>
+            <div class="timeline-block">
+                  <div class="timeline-ico">
+                     <i style="color: #10E33A;" class="fa fa-laptop fa-2x"></i>
+                  </div>
+                  <div class="timeline-header">
+                     <h2>Airbnb Prototype</h2>
+                     <p>September 2016 - December 2016</p>
+                  </div>
+                  <div class="timeline-content">
+                     <div style="display: inline;">
+                        <h3>Prototype for simulation of Airbnb</h3>
+                     </div>
+                     <h2><a href="https://github.com/ajayt/Airbnb_Prototype"><i class="fa fa-github"></i></a></h2>
+                     <p> 
+                        Developed Airbnb prototype where users and host can register themselves, post property advertisement, 
+                        book the property from available dates, review the hosts, users and property, approve user's request 
+                        for leasing property, bid on the property.<br>
+                        Used password encryption, passportJS for authentication.<br>
+                        Implemented connection pooling using stack and queue for performance improvement. 
+                        <div class="skillbox">
+                         <hr>
+                         <code>Nodejs</code>
+                         <code>Angularjs</code>
+                         <code>MYSQL</code>
+                         <code>Mongodb</code>
+                         <code>Redis</code>
+                         <code>RabbitMQ</code>
+                         <code>HTML5</code>
+                         <code>CSS</code>
+                      </div>
+                   </p>
+                </div>
+             </div> <!-- /timeline-block -->                       
+
+            <hr>
+            <div class="timeline-block">
+                  <div class="timeline-ico">
+                     <i style="color: #10E33A;" class="fa fa-laptop fa-2x"></i>
+                  </div>
+                  <div class="timeline-header">
+                     <h2>AgroAI</h2>
+                     <p>September 2016 - December 2016</p>
+                  </div>
+                  <div class="timeline-content">
+                     <div style="display: inline;">
+                        <h3>Intelligent System for farming recommendation </h3>
+                     </div>
+                     <h2 style="display: inline;"><a href="https://github.com/ajayt/AgroAI"><i class="fa fa-github"></i></a>
+                     <a href="">   </a>   
+                     <a href="https://agroaicorp.mybluemix.net"><i class="fa fa-external-link-square"></i></a>
+                     </h2>
+                     <p> 
+                        Developed a system to provide a recommendations to farmers for irrigation needs, 
+                        best suited crop for particular area, measures to present soil erosion. Used the soil data 
+                        from <a href="https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm">usda.gov</a> and develop the machine 
+                        learning models to provide the recommendations.<br>
+                        Recommendations were provided using correlation-based similarity, weather forcast data etc.<br>
+                        Created Android application for the same.
+                        <div class="skillbox">
+                         <hr>
+                         <code>Python</code>
+                         <code>Python Flask</code>
+                         <code>Pandas</code>
+                         <code>IBM Bluemix</code>
+                         <code>Angularjs</code>
+                         <code>HTML5</code>
+                         <code>CSS</code>
+                      </div>
+                   </p>
+                </div>
+             </div> <!-- /timeline-block -->                       
+            <hr>
+            <div class="timeline-block">
+                  <div class="timeline-ico ">
+                     <i style="color: #10E33A;" class="fa fa-laptop fa-2x"></i>
+                  </div>
+                  <div class="timeline-header">
+                     <h2>Ebay Prototype</h2>
+                     <p>September 2016 - October 2016</p>
+                  </div>
+                  <div class="timeline-content">
+                     <div style="display: inline;">
+                        <h3>Simulation of Ebay Marketplace </h3>
+                     </div>
+                     <h2 style="display: inline;"><a href="https://github.com/ajayt/Ebay_Prototype"><i class="fa fa-github"></i></a>
+                     </h2>
+                     <p> 
+                        Developed Ebay Marketplace prototype. With this prototype, user can register himself, 
+                        view the products available for sale and bid, buy the products, place the bid on products, 
+                        view the transaction history, add products to the cart etc. <br>
+                        Used password encryption, PassportJS for authentication.
+                        Implemented database connection pooling using stack and queues for performance improvement.
+                        <div class="skillbox">
+                         <hr>
+                         <code>Nodejs</code>
+                         <code>Angularjs</code>
+                         <code>MYSQL</code>
+                         <code>Mongodb</code>
+                         <code>Redis</code>
+                         <code>RabbitMQ</code>
+                         <code>HTML5</code>
+                         <code>CSS</code>
+                      </div>
+                   </p>
+                </div>
+             </div> <!-- /timeline-block -->                       
+
+            <hr>
+            <div class="timeline-block">
+                  <div class="timeline-ico">
+                     <i style="color: #10E33A;" class="fa fa-laptop fa-2x"></i>
+                  </div>
+                  <div class="timeline-header">
+                     <h2>SS-Rsync</h2>
+                     <p>August 2012 - June 2013</p>
+                  </div>
+                  <div class="timeline-content">
+                     <div style="display: inline;">
+                        <h3>Rsync Over HTTPS with Seamless data transfer </h3>
+                     </div>
+                     <h2 style="display: inline;"><a href="https://github.com/ajayt/SS-Rsync"><i class="fa fa-github"></i></a>
+                     </h2>
+                     <p> 
+                        Extended open source tool Rsync to send and receive data over HTTPS. Updated Rsync does not have 
+                        requirement of any process, service or daemon running on remote system.<br> Rsync client starts the 
+                        Rsync process on remote system and transfer the diff data over more secured HTTPS. After transfer 
+                        completes, it tear downs the daemon on remote system. For remote Windows systems, Rsync client 
+                        pushes Rsync binaries(for windows) to windows and starts the service for transfer and tears it 
+                        down after transfer completes.
+                        <div class="skillbox">
+                         <hr>
+                         <code>C</code>
+                         <code>make</code>
+                         <code>HTTPS</code>
+                      </div>
+                   </p>
+                </div>
+             </div> <!-- /timeline-block -->                       
+
+
+            </div> <!-- /timeline-wrap -->            
+         </div> <!-- /col-twelve -->         
+         <hr>
+      </div> <!-- /resume-timeline -->
+
+<!------------------------------>
+
+<div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Publication</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+                  <div class="column one">
+                  <h3><a><i style="color: #03A8FA;" class="fa fa-pencil fa-2x"></i></a> </h3>
+                  </div>
+                  <div class="column eleven">
+                     <h3>ANPR Camera Based Smart Parking Management System <a href="https://www.technoarete.org/common_abstract/pdf/IJERECE/v4/i10/Ext_31745.pdf"><i class="fa fa-external-link"></i></a> </h3>
+                     <p>Published in <span class="info">International Journal of Engineering Research in Electronics and Communication
+Engineering (IJERECE)
+</span> November, 2015</p>
+                  </div>
+               </div>
+            </div> <!-- item end -->
+         </div> <!-- main-col end -->
+      </div> <!-- End Education -->
+
+<!-- ----------------------------------------------------  -->
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+   <section id="about">
+
+      <div class="row" style="text-align: center;">
+      <div>
+      <h2 style="color: #FD000F; font-weight: thick;">CONTACT</h2>
+      </div>
+      <br>
+      <h2>I am currently looking for Internship opportunities</h2>
+      <div class="col-twelve" style="text-align: center;">
+      <div class="column six">
+         <h2><a><i class="fa fa-envelope"></i></a></h2>
+         <h4>ajaytanpure92@gmail.com</h4>
+         <h4>ajaytanpure45@yahoo.in</h4>
+      </div>
+      <div class="column six">
+         <h2><a><i class="fa fa-phone"></i></a></h2>
+         <h4>+1 669-265-5141</h4>
+         
+      </div>
+      </div>
+
+
+      </div> <!-- end .main-col -->
+   </section> <!-- About Section End-->
+</section>
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/puneeth-gopi-713225147/"><i class="fa fa-linkedin-square"></i></a></li>
+               <li><a href="https://github.com/puneethgopi"><i class="fa fa-github-square"></i></a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
